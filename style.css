@@ -29,13 +29,27 @@ header>.pz-logo {
 
 /* Main page content styling */
 
+
+/*TODO need to add width to a container*/
+
+
+/* max-width: 980px; */
+
 .main-images {
-    align-items: center;
-    width: 900px;
+    display: block;
+    position: relative;
 }
 
 .image-content {
-    text-align: center;
+    width: 290px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.main-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
 }
 
 
@@ -49,5 +63,5 @@ header>.pz-logo {
 
 .column {
     float: right;
-    width: 33.3%;
+    width: 33.0%;
 }
