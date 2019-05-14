@@ -24,6 +24,7 @@ header>.pz-logo {
     position: absolute;
     top: 97px;
     right: 184px;
+    z-index: 10;
 }
 
 
@@ -37,19 +38,30 @@ header>.pz-logo {
 
 .main-images {
     display: block;
+    max-width: 900px;
+    height: 350px;
+    border: 0.5px solid red;
+}
+
+.images-bg {
     position: relative;
+    width: 358px;
+    height: 385px;
 }
 
 .image-content {
-    width: 290px;
-    height: 350px;
     margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    /* top: 0 to put image on top of background*/
+    top: 0;
 }
 
 .main-container {
     margin-left: 40px;
     margin-right: 40px;
     align-items: center;
+    position: relative;
 }
 
 
