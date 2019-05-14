@@ -1,3 +1,5 @@
+/* Body styling */
+
 * {
     box-sizing: border-box;
 }
@@ -8,15 +10,8 @@ body {
     margin: 0px;
 }
 
-div.main-images {
-    display: flex;
-    align-items: center;
-    width: 900px;
-}
 
-div.image-content {
-    display: block;
-}
+/* Header styling */
 
 header {
     height: 105px;
@@ -29,4 +24,30 @@ header>.pz-logo {
     position: absolute;
     top: 97px;
     right: 184px;
+}
+
+
+/* Main page content styling */
+
+.main-images {
+    align-items: center;
+    width: 900px;
+}
+
+.image-content {
+    text-align: center;
+}
+
+
+/* Page Layout */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: right;
+    width: 33.3%;
 }
