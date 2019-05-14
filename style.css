@@ -36,14 +36,18 @@ header>.pz-logo {
     height: 355px;
     position: absolute;
     left: 100px;
-    top: 90px;
+    top: 40px;
 }
 
 .images-bg {
     position: relative;
     left: 0;
+    padding: 20px 20px;
+}
+
+.images-bg>img {
     width: 293px;
-    height: 355px;
+    height: 356px;
 }
 
 
@@ -54,30 +58,35 @@ header>.pz-logo {
     width: 100%;
     position: absolute;
     top: 0;
+    padding: 20px 20px;
 }
 
+.image-content>img {
+    width: 291px;
+    height: 354px;
+    border-bottom-right-radius: 10px;
+}
+
+
+}
 .padding-img {
     position: relative;
     float: right;
-    margin: 0 20px;
 }
-
 .main-container {
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 30px;
     align-items: center;
     position: relative;
 }
 
-
 /* Page Layout */
-
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .column {
     float: right;
     width: 33.33%;
