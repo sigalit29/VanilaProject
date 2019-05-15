@@ -30,33 +30,60 @@ header>.pz-logo {
 }
 
 /* nav styling*/
+
 .top-menu {
     position: absolute;
     top: 60px;
-    margin-right: 600px;    
+    margin-right: 600px;
 }
 
 .top-menu>ul>li>a {
     text-decoration: none;
     color: whitesmoke;
-    list-style-type: none; 
     padding: 15px 15px;
 }
 
 .top-menu>ul>li {
     display: inline-block;
     border-right: 1px solid whitesmoke;
+    
 }
 
 
-nav > ul > li > a:hover {
-    color:rgb(27, 27, 146);
+.top-menu>ul>li>a:hover {
+    color: rgb(27, 27, 146);
     text-decoration-line: underline;
 }
 
+.dropdown {
+    position: relative;
+}
 
-.top-menu>ul>.home-icon {
+.dropdown-content {
+    display: none;
+    background-color: #AAAAAA;
+    text-align: right;
+    width: 120px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    top:20px;
+}
 
+.dropdown-content>a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.dropdown-content>a:hover {
+    background-color: #666666;
+}
+
+.dropdown:hover>.dropdown-content {
+    display: block;
 }
 
 /* Main page content styling */
