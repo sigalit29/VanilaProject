@@ -30,20 +30,24 @@ header>.pz-logo {
 }
 
 /* nav styling*/
-
-nav>ul>li>a {
-    display: inline-block;
-    text-decoration: none;
-    color: whitesmoke;
-    list-style-type: none;
+.top-menu {
     position: absolute;
-    top: 70px;
-    margin-right: 570px;
+    top: 60px;
+    margin-right: 600px;    
 }
 
-nav>ul>li {
-    display: inline;
-    padding: 70px;
+.top-menu>ul>li>a {
+    /* display: inline-block; */
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none; 
+    padding: 20px 20px;
+}
+
+.top-menu>ul>li {
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+
 }
 
 /* Main page content styling */
