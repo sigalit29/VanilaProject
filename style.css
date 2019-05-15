@@ -164,9 +164,11 @@ header>.pz-logo {
 }
 
 
-/* a.readMore>.spam {
-   
-} */
+/*not working ?*/
+
+a.readMore span {
+    padding-left: 12px;
+}
 
 a.readMore {
     color: rgb(29, 194, 139);
