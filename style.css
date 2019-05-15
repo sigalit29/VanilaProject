@@ -35,11 +35,10 @@ header>.pz-logo {
 }
 
 .main-images {
-    margin-top: 30px; 
+    margin-top: 30px;
     display: block;
     padding: 0px;
     width: 900px;
-    
 }
 
 .images-bg {
@@ -52,7 +51,7 @@ header>.pz-logo {
     height: 356px;
 }
 
-.image-content {      
+.image-content {
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -64,10 +63,10 @@ header>.pz-logo {
 
 .padding-img {
     position: relative;
-    float: right;    
+    float: right;
 }
 
-.main-container {   
+.main-container {
     width: 900px;
     margin: auto;
 }
@@ -85,4 +84,16 @@ header>.pz-logo {
     width: 293px;
     height: 355px;
     margin: 3.5px;
+}
+
+/* fotter style*/
+
+footer {
+    height: 38px;
+    background-image: linear-gradient(#AAAAAA, #999999);
+    border-radius: 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
