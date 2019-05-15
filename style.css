@@ -67,7 +67,7 @@ header>.pz-logo {
     display: none;
     background-color: #999999;
     text-align: right;
-    width: 120px;
+    max-width: 150px;
     position: absolute;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
@@ -80,6 +80,7 @@ header>.pz-logo {
     text-decoration: none;
     padding: 5px;
     color: whitesmoke;
+    border-top: 0.8px groove whitesmoke;
 }
 
 .dropdown-content>a:hover {
