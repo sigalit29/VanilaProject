@@ -101,21 +101,32 @@ header>.pz-logo {
     position: relative;
 }
 
-.main-images {
+.main-images,
+.secound-images {
     margin-top: 30px;
     display: block;
     padding: 0px;
     width: 900px;
 }
 
-.images-bg {
+.images-bg,
+.cub-bg {
     position: relative;
     left: 0;
+}
+
+.secound-images {
+    margin-top: 200px;
 }
 
 .images-bg>img {
     width: 293px;
     height: 356px;
+}
+
+.cub-bg>img {
+    width: 293px;
+    height: 171px;
 }
 
 .image-content {
@@ -136,6 +147,7 @@ header>.pz-logo {
 .main-container {
     width: 900px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 
@@ -151,6 +163,13 @@ header>.pz-logo {
     float: right;
     width: 293px;
     height: 355px;
+    margin: 3.5px;
+}
+
+.column-2 {
+    float: right;
+    width: 293px;
+    height: 171px;
     margin: 3.5px;
 }
 
