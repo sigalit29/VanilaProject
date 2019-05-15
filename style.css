@@ -142,6 +142,12 @@ header>.pz-logo {
     right: 5px;
 }
 
+.text-box-cont>h3 {
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 0.2;
+}
+
 .text-box-cont {
     position: absolute;
     width: 240px;
@@ -153,18 +159,31 @@ header>.pz-logo {
     color: whitesmoke;
 }
 
-.text-box-cont>h3 {
+.cub-content>h3 {
     font-size: 0.85em;
     font-weight: bold;
-    line-height: 0.2;
+    line-height: 2.6;
 }
 
-.text-box-cont>p {
+.text-box-cont>p,
+.cub-content>p {
     font-size: 0.85em;
 }
 
+.cub-content {
+    margin: 0 auto;
+    position: absolute;
+    width: 295px;
+    height: 215px;
+    bottom: 6px;
+    top: 510px;
+    color: #575757;
+    padding: 0 24px;
+    bottom: 30px;
+}
 
-/*not working ?*/
+
+/* span styling not working ?*/
 
 a.readMore span {
     padding-left: 12px;
@@ -206,9 +225,10 @@ a.readMore {
 }
 
 .column-2 {
+    margin-top: 20px;
     float: right;
     width: 293px;
-    height: 171px;
+    height: 215px;
     margin: 3.5px;
 }
 
