@@ -8,6 +8,9 @@ body {
     direction: rtl;
     text-align: right;
     margin: 0px;
+    font-family: 'Arial (Hebrew)', Arial;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* Header styling */
@@ -24,6 +27,23 @@ header>.pz-logo {
     top: 32px;
     right: 505px;
     z-index: 10;
+}
+
+/* nav styling*/
+
+nav>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    position: absolute;
+    top: 70px;
+    margin-right: 570px;
+}
+
+nav>ul>li {
+    display: inline;
+    padding: 70px;
 }
 
 /* Main page content styling */
