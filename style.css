@@ -10,7 +10,6 @@ body {
     margin: 0px;
 }
 
-
 /* Header styling */
 
 header {
@@ -27,22 +26,24 @@ header>.pz-logo {
     z-index: 10;
 }
 
-
 /* Main page content styling */
+
+.all-container {
+    width: 980px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
 
 .main-images {
     display: block;
-    max-width: 900px;
-    height: 355px;
     position: absolute;
-    left: 100px;
-    top: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .images-bg {
     position: relative;
     left: 0;
-    padding: 20px 20px;
 }
 
 .images-bg>img {
@@ -50,44 +51,37 @@ header>.pz-logo {
     height: 356px;
 }
 
-
-/* I used "top: 0" to put image on top of background */
-
 .image-content {
     margin: 0 auto;
-    width: 100%;
     position: absolute;
     top: 0;
-    padding: 20px 20px;
 }
 
 .image-content>img {
-    width: 291px;
-    height: 354px;
     border-bottom-right-radius: 10px;
 }
 
-
-}
 .padding-img {
     position: relative;
     float: right;
 }
+
 .main-container {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
     align-items: left;
     position: relative;
-    width: 980px;
 }
 
 /* Page Layout */
+
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
+
 .column {
     float: right;
     width: 33.33%;
