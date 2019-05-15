@@ -37,16 +37,25 @@ header>.pz-logo {
 }
 
 .top-menu>ul>li>a {
-    /* display: inline-block; */
     text-decoration: none;
     color: whitesmoke;
     list-style-type: none; 
-    padding: 20px 20px;
+    padding: 15px 15px;
 }
 
 .top-menu>ul>li {
     display: inline-block;
     border-right: 1px solid whitesmoke;
+}
+
+
+nav > ul > li > a:hover {
+    color:rgb(27, 27, 146);
+    text-decoration-line: underline;
+}
+
+
+.top-menu>ul>.home-icon {
 
 }
 
