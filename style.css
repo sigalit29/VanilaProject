@@ -142,6 +142,36 @@ header>.pz-logo {
     right: 5px;
 }
 
+.text-box-cont {
+    position: absolute;
+    width: 240px;
+    height: 77px;
+    padding: 10px;
+    right: 7px;
+    bottom: 6px;
+    top: 244px;
+    color: whitesmoke;
+}
+
+.text-box-cont>h3 {
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 0.2;
+}
+
+.text-box-cont>p {
+    font-size: 0.85em;
+}
+
+
+/* a.readMore>.spam {
+   
+} */
+
+a.readMore {
+    color: rgb(29, 194, 139);
+}
+
 .image-content>img {
     border-bottom-right-radius: 10px;
 }
