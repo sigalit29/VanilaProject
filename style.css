@@ -22,7 +22,7 @@ header {
 
 header>.pz-logo {
     position: absolute;
-    top: 97px;
+    top: 30px;
     right: 184px;
     z-index: 10;
 }
@@ -77,8 +77,9 @@ header>.pz-logo {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
-    align-items: center;
+    align-items: left;
     position: relative;
+    width: 980px;
 }
 
 /* Page Layout */
