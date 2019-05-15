@@ -116,7 +116,7 @@ header>.pz-logo {
 }
 
 .secound-images {
-    margin-top: 200px;
+    margin-top: 15px;
 }
 
 .images-bg>img {
@@ -133,6 +133,13 @@ header>.pz-logo {
     margin: 0 auto;
     position: absolute;
     top: 0;
+}
+
+.text-box {
+    margin: 0 auto;
+    position: absolute;
+    top: 253px;
+    right: 5px;
 }
 
 .image-content>img {
