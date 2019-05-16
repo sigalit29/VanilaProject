@@ -284,4 +284,42 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin:0;
+}
+
+footer > .bottom-menu{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 45px; 
+    height: 22px;
+    width: 100%;   
+    position: relative;
+   }
+
+.footer-menu {
+    position: absolute;
+    height: 38px;
+ 
+}
+.footer-menu {
+    color:whitesmoke; 
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-menu>li {
+    float: right; 
+    border-right: 2px solid whitesmoke; 
+    margin-right: 20px;
+   
+}
+.footer-menu>li>a {
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-decoration: none;    
+}
+
+.fbLink{
+    position: absolute;
+    border: none; 
 }
