@@ -125,8 +125,8 @@ header>.pz-logo {
 }
 
 .cub-bg>img {
-    width: 293px;
-    height: 171px;
+    width: 292px;
+    height: 216px;
 }
 
 .image-content {
@@ -172,11 +172,15 @@ header>.pz-logo {
     font-size: 0.85em;
 }
 
+.cub-content>img{
+   
+}
+
 .cub-content {
     margin: 0 auto;
     position: absolute;
-    width: 293px;
-    height: 215px;
+    width: 292px;
+    height: 216px;
     bottom: 6px;
     top: 501px;
     color: #575757;
@@ -189,10 +193,12 @@ header>.pz-logo {
 
 a.readMore span {
     padding-left: 12px;
+    float:left;
 }
 
 .more-info {
     margin-top: 15px;
+    float:left;
 }
 
 a.readMore {
@@ -233,7 +239,7 @@ a.readMore {
 .column-2 {
     margin-top: 20px;
     float: right;
-    width: 293px;
+    width: 292px;
     height: 222px;
     margin: 3.5px;
 }
