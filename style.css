@@ -139,31 +139,18 @@ header>.pz-logo {
     left: 0;
 }
 
-.secound-images {
-    margin-top: 20px;
-    height: 222px;
+.image-content>img {
+    border-bottom-right-radius: 10px;
+}
+
+.padding-img {
+    position: relative;
+    float: right;
 }
 
 .images-bg>img {
     width: 293px;
     height: 356px;
-}
-
-.cub-bg>img {
-    width: 292px;
-    height: 216px;
-}
-
-.cub-content {
-    margin: 0 auto;
-    position: absolute;
-    width: 292px;
-    height: 216px;
-    bottom: 6px;
-    top: 501px;
-    color: #575757;
-    padding: 0 20px;
-    bottom: 30px;
 }
 
 .image-content {
@@ -196,6 +183,10 @@ header>.pz-logo {
     color: whitesmoke;
 }
 
+.text-box-cont>p, .cub-content>p {
+    font-size: 0.85em;
+}
+
 .text-box-cont a.readMore {
     float: left;
     position: absolute;
@@ -206,6 +197,31 @@ header>.pz-logo {
     padding-left: 12px;
 }
 
+.secound-images {
+    margin-top: 20px;
+    height: 222px;
+}
+
+.cub-bg>img {
+    width: 292px;
+    height: 216px;
+}
+.left-cube {
+    float: right;
+}
+
+.cub-content, .left-cube {
+    margin: 0 auto;
+    position: absolute;
+    width: 292px;
+    height: 216px;
+    bottom: 6px;
+    top: 501px;
+    color: #575757;
+    padding: 0 20px;
+    bottom: 30px;
+}
+
 .cub-content>h3 {
     padding-top: 6px;
     margin-bottom: 15px;
@@ -214,10 +230,32 @@ header>.pz-logo {
     line-height: 2.6;
 }
 
-.text-box-cont>p, .cub-content>p {
-    
-    font-size: 0.85em;
+.left-cube>.header-left-cub>h3{
+    color: red;
 }
+.left-cube>.map-list {
+    display: block;
+    bottom: 6px;
+    padding-top: 15px;
+    width: 10px;
+    
+}
+.left-cube>.map-list>a
+{
+    color: #72716d;
+    font-size: 0.85em;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+.left-cube >.map-img {
+    position: absolute;
+    padding-right: 160px;
+    width: 73;
+    height: 168px;
+    top: 55px;
+}
+
 
 .cub-content>img {
     width: 250px;
@@ -229,17 +267,11 @@ header>.pz-logo {
     font-size: 0.85em;
     position: absolute;
     left: 0;
-    bottom:0;
+    bottom: 0;
     padding-left: 12px;
 }
-
-.image-content>img {
-    border-bottom-right-radius: 10px;
-}
-
-.padding-img {
-    position: relative;
-    float: right;
+.cub-content>a:hover{
+    color: #1d2c1f;
 }
 
 /* fotter style*/
