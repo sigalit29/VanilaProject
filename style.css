@@ -230,9 +230,7 @@ header>.pz-logo {
     line-height: 2.6;
 }
 
-.left-cube>.header-left-cub>h3{
-    color: red;
-}
+
 .left-cube>.map-list {
     display: block;
     bottom: 6px;
@@ -255,7 +253,9 @@ header>.pz-logo {
     height: 168px;
     top: 55px;
 }
-
+.left-cube>h3{
+    color: red;
+}
 
 .cub-content>img {
     width: 250px;
