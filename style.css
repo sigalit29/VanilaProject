@@ -13,7 +13,6 @@ body {
     font-weight: bold;
 }
 
-
 /* Header styling */
 
 header {
@@ -29,7 +28,6 @@ header>.pz-logo {
     right: 185px;
     z-index: 10;
 }
-
 
 /* nav styling*/
 
@@ -92,7 +90,6 @@ header>.pz-logo {
     display: block;
 }
 
-
 /* Main page content styling */
 
 .all-container {
@@ -101,16 +98,43 @@ header>.pz-logo {
     position: relative;
 }
 
-.main-images,
-.secound-images {
+.main-container {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Page Layout */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: right;
+    width: 293px;
+    height: 355px;
+    margin: 3.5px;
+}
+
+.column-2 {
+    margin-top: 20px;
+    float: right;
+    width: 292px;
+    height: 222px;
+    margin: 3.5px;
+}
+
+.main-images, .secound-images {
     margin-top: 30px;
     display: block;
     padding: 0px;
     width: 900px;
 }
 
-.images-bg,
-.cub-bg {
+.images-bg, .cub-bg {
     position: relative;
     left: 0;
 }
@@ -127,6 +151,18 @@ header>.pz-logo {
 .cub-bg>img {
     width: 292px;
     height: 216px;
+}
+
+.cub-content {
+    margin: 0 auto;
+    position: absolute;
+    width: 292px;
+    height: 216px;
+    bottom: 6px;
+    top: 501px;
+    color: #575757;
+    padding: 0 20px;
+    bottom: 30px;
 }
 
 .image-content {
@@ -159,57 +195,41 @@ header>.pz-logo {
     color: whitesmoke;
 }
 
+.text-box-cont a.readMore {
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    font-size: 0.85em;
+    padding-left: 12px;
+}
+
 .cub-content>h3 {
-    top: 6px;
+    padding-top: 6px;
     margin-bottom: 15px;
     font-size: 0.85em;
     font-weight: bold;
     line-height: 2.6;
 }
 
-.text-box-cont>p,
-.cub-content>p 
-{
+.text-box-cont>p, .cub-content>p {
+    
     font-size: 0.85em;
 }
-.cub-content>p > span{
-    color:red;
+
+.cub-content>img {
+    width: 250px;
+    height: 110px;
 }
 
-.cub-content>img{
-   width:250px;
-   height:110px;
-}
-
-.cub-content {
-    margin: 0 auto;
-    position: absolute;
-    width: 292px;
-    height: 216px;
-    bottom: 6px;
-    top: 501px;
+.cub-content>a {
     color: #575757;
-    padding: 0 20px;
-    bottom: 30px;
-}
-
-
-/* span styling not working ?*/
-
-.cub-content a.readMore span {
-    padding-left: 12px;
-    float:left;
-    color:whitesmoke;
     font-size: 0.85em;
-}
-
-.text-box-cont a.readMore {    
-    float:left;
     position: absolute;
-    left:0;
-    bottom:0; 
-    color:whitesmoke;
-    font-size: 0.85em;
+    left: 0;
+    bottom:0;
+    padding-left: 12px;
 }
 
 .image-content>img {
@@ -220,37 +240,6 @@ header>.pz-logo {
     position: relative;
     float: right;
 }
-
-.main-container {
-    width: 900px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-
-/* Page Layout */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.column {
-    float: right;
-    width: 293px;
-    height: 355px;
-    margin: 3.5px;
-}
-
-.column-2 {
-    margin-top: 20px;
-    float: right;
-    width: 292px;
-    height: 222px;
-    margin: 3.5px;
-}
-
 
 /* fotter style*/
 
