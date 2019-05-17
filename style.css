@@ -342,9 +342,15 @@ form {
     position: relative;
 }
 
-.column form1-bg {
+.form1-bg {
+    background-image: linear-gradient(#ffffff, #ece9e9);
+    border-top-right-radius: 20px;
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
     width: 347px;
-    height: 293px;
+    min-height: 332px;
+    padding: 12px 18px;
 }
 
 .main-form {
