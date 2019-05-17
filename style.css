@@ -342,6 +342,20 @@ form {
     position: relative;
 }
 
+.column form1-bg {
+    width: 347px;
+    height: 293px;
+}
+
 .main-form {
-    display: flex;
+    margin-right: 160px;
+    float: right;
+}
+
+.form-small-cubs {
+    margin-right: 50px;
+}
+
+.form-small-cubs>.image-small-cub2 {
+    margin-top: 15px;
 }
