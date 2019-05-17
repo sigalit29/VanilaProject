@@ -221,7 +221,7 @@ header>.pz-logo {
     padding: 0 20px;
     bottom: 30px;
 }
-
+.left-cube>h3,
 .cub-content>h3 {
     padding-top: 6px;
     margin-bottom: 15px;
@@ -253,9 +253,7 @@ header>.pz-logo {
     height: 168px;
     top: 55px;
 }
-.left-cube>h3{
-    color: red;
-}
+
 
 .cub-content>img {
     width: 250px;
