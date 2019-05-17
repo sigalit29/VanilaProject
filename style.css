@@ -151,8 +151,8 @@ header>.pz-logo {
 }
 
 .images-bg>img {
-    width: 293px;
-    height: 356px;
+    width: 340px;
+    height: 15px;
 }
 
 .image-content {
@@ -359,9 +359,29 @@ form {
 }
 
 .form-small-cubs {
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 .form-small-cubs>.image-small-cub2 {
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+/* used in form*/
+
+.main-form>.form-title {
+    width: 430px;
+    height: 15px;
+    margin-bottom: 12px;
+}
+
+.main-form>.form-title>h1 {
+    width: 430px;
+    height: 15px;
+    color: rgb(112, 107, 107);
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(214, 203, 203);
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+    line-height: 0.7;
 }
