@@ -29,7 +29,7 @@ header>.pz-logo {
     z-index: 10;
 }
 
-/* nav styling*/
+/* nav menu styling */
 
 .top-menu {
     position: absolute;
@@ -142,7 +142,7 @@ header>.pz-logo {
 .image-content>img {
     border-bottom-right-radius: 10px;
 }
-
+/* TODO - check if class is not unececery */
 .padding-img {
     position: relative;
     float: right;
@@ -206,6 +206,7 @@ header>.pz-logo {
     width: 292px;
     height: 216px;
 }
+
 .left-cube {
     float: right;
 }
@@ -221,8 +222,8 @@ header>.pz-logo {
     padding: 0 20px;
     bottom: 30px;
 }
-.left-cube>h3,
-.cub-content>h3 {
+
+.left-cube>h3, .cub-content>h3 {
     padding-top: 6px;
     margin-bottom: 15px;
     font-size: 0.85em;
@@ -230,23 +231,25 @@ header>.pz-logo {
     line-height: 2.6;
 }
 
-
-.left-cube>.map-list {
+.left-cube>#map-list {
     display: block;
     bottom: 6px;
     padding-top: 15px;
     width: 10px;
-    
-}
-.left-cube>.map-list>a
-{
-    color: #72716d;
-    font-size: 0.85em;
-    font-weight: 200;
-    line-height: 1.7;
 }
 
-.left-cube >.map-img {
+.left-cube>#map-list>a {
+    color: #72716d;
+    font-size: 0.85em;
+    font-weight: 400;
+    line-height: 1.7;
+}
+/* not working problem in a tag? */
+.left-cube>#map-list>a:hover {
+    color: #1d2c1f;
+}
+
+.left-cube>.map-img {
     position: absolute;
     padding-right: 160px;
     width: 73;
@@ -254,21 +257,27 @@ header>.pz-logo {
     top: 55px;
 }
 
-
 .cub-content>img {
     width: 250px;
     height: 110px;
 }
 
 .cub-content>a {
-    color: #575757;
+    color: #918181;
     font-size: 0.85em;
     position: absolute;
     left: 0;
     bottom: 0;
     padding-left: 12px;
 }
-.cub-content>a:hover{
+
+.cub-content>a:hover {
+    color: #1d2c1f;
+}
+
+/* span styling */
+
+a span:hover {
     color: #1d2c1f;
 }
 
@@ -282,42 +291,42 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin:0;
+    margin: 0;
 }
 
-footer > .bottom-menu{
+footer>.bottom-menu {
     display: inline-block;
     font-size: 14px;
-    margin-bottom: 45px; 
+    margin-bottom: 45px;
     height: 22px;
-    width: 100%;   
+    width: 100%;
     position: relative;
-   }
+}
 
 .footer-menu {
     position: absolute;
     height: 38px;
- 
 }
+
 .footer-menu {
-    color:whitesmoke; 
-    list-style: none; 
+    color: whitesmoke;
+    list-style: none;
     padding: 0;
 }
 
 .footer-menu>li {
-    float: right; 
-    border-right: 2px solid whitesmoke; 
+    float: right;
+    border-right: 2px solid whitesmoke;
     margin-right: 20px;
-   
 }
+
 .footer-menu>li>a {
     color: whitesmoke;
     padding: 10px 10px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-.fbLink{
+.fbLink {
     position: absolute;
-    border: none; 
+    border: none;
 }
