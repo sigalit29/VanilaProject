@@ -335,11 +335,28 @@ footer>.bottom-menu {
     border: none;
 }
 
-/* form styling*/
+/* html: "get-in-contact-form.html" styling*/
 
 form {
-    margin-top: 80px;
     position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.right-form-cont {
+    width: 440px;
+    min-height: 332px;
+    padding: 12px 18px;
+    float: right;
+   
+}
+
+.left-form-cont {
+    float: left;
+    width: 347px;
+    min-height: 332px;
+    margin-right: 10px;
+    margin-top: 40px;
 }
 
 .form1-bg {
@@ -354,12 +371,12 @@ form {
 }
 
 .main-form {
-    margin-right: 160px;
+    margin-right: 10px;
     float: right;
 }
 
 .form-small-cubs {
-    margin-right: 80px;
+    margin-right: 10px;
 }
 
 .form-small-cubs>.image-small-cub2 {
@@ -368,13 +385,11 @@ form {
 
 /* used in form*/
 
-.main-form>.form-title {
-    width: 430px;
-    height: 15px;
+.right-form-cont>.form-title {
     margin-bottom: 12px;
 }
 
-.main-form>.form-title>h1 {
+.right-form-cont>.form-title>h1 {
     width: 430px;
     height: 15px;
     color: rgb(112, 107, 107);
