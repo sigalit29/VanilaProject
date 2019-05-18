@@ -348,7 +348,6 @@ form {
     min-height: 332px;
     padding: 12px 18px;
     float: right;
-   
 }
 
 .left-form-cont {
@@ -373,10 +372,12 @@ form {
 .main-form {
     margin-right: 10px;
     float: right;
+    position: relative;
 }
 
 .form-small-cubs {
     margin-right: 10px;
+    position: relative;
 }
 
 .form-small-cubs>.image-small-cub2 {
@@ -389,13 +390,22 @@ form {
     margin-bottom: 12px;
 }
 
-.right-form-cont>.form-title>h1 {
+.form-title>h1 {
     width: 430px;
     height: 15px;
+    border-bottom: 1px solid rgb(214, 203, 203);
+}
+.text-box-cube1>h1 {
+    position: absolute;
+    width: 430px;
+    height: 15px;
+    right:22px;
+}
+
+.text-box-cube1>h1, .form-title>h1 {
     color: rgb(112, 107, 107);
     font-size: 15px;
     font-weight: bold;
-    border-bottom: 1px solid rgb(214, 203, 203);
     margin-bottom: 12px;
     padding-bottom: 4px;
     line-height: 0.7;
