@@ -345,7 +345,6 @@ form {
 
 .right-form-cont {
     position: relative;
-
     width: 440px;
     min-height: 332px;
     padding: 12px 18px;
@@ -356,11 +355,21 @@ form {
 
 .user-login {
     position: absolute; 
-    /* display: block;   */
-    top: 180px;
-    right: 52px;
-    width: 350px;
+    top: 160px;
+    right: 72px;
     height: 200px;
+    width:300px;
+    
+}
+
+.first-name, .famely-name, .phone-no, .email{    
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 4px 4px;
 }
 
 .left-form-cont {
