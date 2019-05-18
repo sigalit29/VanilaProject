@@ -49,8 +49,7 @@ header>.pz-logo {
     border-right: 2px solid whitesmoke;
 }
 
-footer > div > ul > li > a:hover,
-.top-menu>ul>li>a:hover {
+footer>div>ul>li>a:hover, .top-menu>ul>li>a:hover {
     color: rgb(27, 27, 146);
     text-decoration-line: underline;
 }
@@ -337,7 +336,7 @@ footer>.bottom-menu {
     border: none;
 }
 
-/* html: "get-in-contact-form.html" styling*/
+/* html: "get-in-contact-form.html" styling....*/
 
 form {
     margin-top: 40px;
@@ -350,26 +349,37 @@ form {
     min-height: 252px;
     padding: 12px 18px;
     float: right;
-    border-top:1.5px;
+    border-top: 1.5px;
 }
 
 .top-button {
     position: relative;
-    display: flex;   
+    display: flex;
     width: 110px;
     height: 36px;
-    background-image: linear-gradient(#fefefe, #dededede);    
+    background-image: linear-gradient(#fefefe, #dededede);
 }
 
 .a-label {
     font-size: 13px;
     text-decoration: none;
     padding: 12px 10px 0px 10px;
-    color:#6d6d6d;
+    color: #6d6d6d;
     font-weight: normal;
 }
-
-/*user get in touch fields*/
+.mini-menu {
+    display: flex;
+}
+.small-menu{
+     margin-right: 135px;
+}
+.menu {    
+    margin-left: 24px;   
+    font-size: 13px;
+    color: #5c5c5c; 
+    text-decoration: none; 
+    font-weight: normal;  
+}
 
 .user-login {
     position: absolute;
@@ -528,8 +538,8 @@ form {
     color: #72716d;
     font-weight: normal;
 }
-
-.button-send {
+ div.user-login > button{
+     position: absolute;
     border-bottom-right-radius: 10px;
     background-color: blue;
     left: 0;
