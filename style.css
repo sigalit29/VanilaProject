@@ -442,6 +442,10 @@ form {
     color: #005CA0;   
 }
 
+.text-box-cube2>a:hover {
+    color: #1d2c1f;
+}
+
 .text-box-cube >p{
     margin-top: 0;
     padding-bottom: 2px;
