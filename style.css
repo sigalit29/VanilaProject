@@ -397,36 +397,17 @@ form {
     border-bottom: 1px solid rgb(214, 203, 203);
 }
 
+.cube2-title,
 .cube1-title{
     color: #005ca0;
     height: 15px;
  }
 
-.container-cub1,
-.container-cub2{
-    position: relative;
-}
-.text-box-cube{
-   position: absolute;
-   top:8px;
-   right:22px;
-   width: 250px;
-   height: 150px;
-}
-.text-box-cube >p{
-    margin-top: 0;
-    padding-bottom: 2px;
-    line-height: 1.2;
-    color: #6d6d6d;
-    font-weight: normal;
-
-}
-
 .inner-title,.form-title>h1{
     color: rgb(112, 107, 107);   
 }
 
-.inner-title, 
+.inner-title, .cube2-title,
 .cube1-title, .form-title>h1 {
     font-size: 15px;
     font-weight: bold;
@@ -437,4 +418,25 @@ form {
 .inner-title{
     margin-top: 15px;
     margin-bottom: 0px;
+}
+
+.container-cub1,
+.container-cub2{
+    position: relative;
+}
+.text-box-cube2,
+.text-box-cube{
+   position: absolute;
+   top:8px;
+   right:22px;
+   width: 250px;
+   height: 150px;
+}
+
+.text-box-cube >p{
+    margin-top: 0;
+    padding-bottom: 2px;
+    line-height: 1.2;
+    color: #6d6d6d;
+    font-weight: normal;
 }
