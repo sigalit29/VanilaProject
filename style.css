@@ -345,13 +345,22 @@ form {
 
 .right-form-cont {
     position: relative;
+
     width: 440px;
     min-height: 332px;
     padding: 12px 18px;
     float: right;
 }
-.right-form-cont .user-login{
+
+/*user get in touch fields*/
+
+.user-login {
     position: absolute; 
+    /* display: block;   */
+    top: 180px;
+    right: 52px;
+    width: 350px;
+    height: 200px;
 }
 
 .left-form-cont {
@@ -374,11 +383,11 @@ form {
     padding: 12px 18px;
 }
 
-.text-box-right{
+.text-box-right {
     position: absolute;
-    top:8px;
-    right:22px;
-    width: 250px;
+    top: 8px;
+    right: 22px;
+    width: 370px;
     height: 250px;
 }
 
@@ -402,7 +411,7 @@ form {
 /* used in form*/
 
 .right-form-cont>.form-title {
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
 }
 
 .form-title>h1 {
@@ -410,19 +419,18 @@ form {
     height: 15px;
     border-bottom: 1px solid rgb(214, 203, 203);
 }
-.right-form-title,
-.cube2-title,
-.cube1-title{
+
+.right-form-title, .cube2-title, .cube1-title {
     color: #005ca0;
     height: 15px;
- }
+}
 
- .right-form-title{
-    margin-top: 60px; 
-    margin-right:20px;  
- }
- 
- .right-inner-title{
+.right-form-title {
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.right-inner-title {
     width: 347px;
     height: 30px;
     margin-right: 20px;
@@ -431,22 +439,22 @@ form {
     margin-bottom: 12px;
     padding-bottom: 2px;
     line-height: 1.2;
- }
- .user-comment {
+}
+
+.user-comment {
     color: #72716d;
     font-size: 12px;
     margin-right: 20px;
     width: 347px;
     line-height: 0.8px;
     font-weight: normal;
- }
-
-.right-inner-title,.inner-title,.inner-title2,.form-title>h1{
-    color: rgb(112, 107, 107);   
 }
 
-.right-form-title,.inner-title, .inner-title2, .cube2-title,
-.cube1-title, .form-title>h1 {
+.right-inner-title, .inner-title, .inner-title2, .form-title>h1 {
+    color: rgb(112, 107, 107);
+}
+
+.right-form-title, .inner-title, .inner-title2, .cube2-title, .cube1-title, .form-title>h1 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 12px;
@@ -454,48 +462,39 @@ form {
     line-height: 0.7;
 }
 
-.right-inner-title,
-.inner-title2,
-.inner-title{
+.right-inner-title, .inner-title2, .inner-title {
     margin-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-.inner-title2{
+
+.inner-title2 {
     margin-top: 0px;
 }
-.container-cub1,
-.container-cub2{
+
+.container-cub1, .container-cub2 {
     position: relative;
- 
 }
 
-.text-box-cube2,
-.text-box-cube{
-   position: absolute;
-   top:8px;
-   right:22px;
-   width: 250px;
-   height: 150px;
+.text-box-cube2, .text-box-cube {
+    position: absolute;
+    top: 8px;
+    right: 22px;
+    width: 250px;
+    height: 150px;
 }
 
-.text-box-cube2>a{
-    color: #005CA0; 
+.text-box-cube2>a {
+    color: #005CA0;
     font-weight: normal;
-    font-size: 13px;  
+    font-size: 13px;
 }
-.user-login{
-    /* position: absolute; */
-    top:100px;
-   right:22px;
-   width: 250px;
-   height: 150px; 
-}
+
 .text-box-cube2>a:hover {
     color: #1d2c1f;
 }
 
-.text-box-cube >p{
+.text-box-cube>p {
     margin-top: 0;
     padding-bottom: 2px;
     line-height: 1.2;
