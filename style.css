@@ -338,12 +338,12 @@ footer>.bottom-menu {
 /* html: "get-in-contact-form.html" styling*/
 
 form {
-    position: relative;
     margin-top: 20px;
     margin-right: 20px;
 }
 
 .right-form-cont {
+    position: relative;
     width: 440px;
     min-height: 332px;
     padding: 12px 18px;
@@ -351,6 +351,7 @@ form {
 }
 
 .left-form-cont {
+    position: relative;
     float: left;
     width: 347px;
     min-height: 332px;
@@ -380,14 +381,14 @@ form {
     position: relative;
 }
 
-.form-small-cubs>.image-small-cub2 {
+.container-cub2 {
     margin-top: 10px;
 }
 
 /* used in form*/
 
 .right-form-cont>.form-title {
-    margin-bottom: 12px;
+    margin-bottom: 12px; 
 }
 
 .form-title>h1 {
@@ -395,18 +396,45 @@ form {
     height: 15px;
     border-bottom: 1px solid rgb(214, 203, 203);
 }
-.text-box-cube1>h1 {
-    position: absolute;
-    width: 430px;
+
+.cube1-title{
+    color: #005ca0;
     height: 15px;
-    right:22px;
+ }
+
+.container-cub1,
+.container-cub2{
+    position: relative;
+}
+.text-box-cube{
+   position: absolute;
+   top:8px;
+   right:22px;
+   width: 250px;
+   height: 150px;
+}
+.text-box-cube >p{
+    margin-top: 0;
+    padding-bottom: 2px;
+    line-height: 1.2;
+    color: #6d6d6d;
+    font-weight: normal;
+
 }
 
-.text-box-cube1>h1, .form-title>h1 {
-    color: rgb(112, 107, 107);
+.inner-title,.form-title>h1{
+    color: rgb(112, 107, 107);   
+}
+
+.inner-title, 
+.cube1-title, .form-title>h1 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 12px;
     padding-bottom: 4px;
     line-height: 0.7;
+}
+.inner-title{
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
