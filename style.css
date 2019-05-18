@@ -403,11 +403,11 @@ form {
     height: 15px;
  }
 
-.inner-title,.form-title>h1{
+.inner-title,.inner-title2,.form-title>h1{
     color: rgb(112, 107, 107);   
 }
 
-.inner-title, .cube2-title,
+.inner-title, .inner-title2, .cube2-title,
 .cube1-title, .form-title>h1 {
     font-size: 15px;
     font-weight: bold;
@@ -415,15 +415,20 @@ form {
     padding-bottom: 4px;
     line-height: 0.7;
 }
+.inner-title2,
 .inner-title{
     margin-top: 15px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-
+.inner-title2{
+    margin-top: 0px;
+}
 .container-cub1,
 .container-cub2{
     position: relative;
 }
+
 .text-box-cube2,
 .text-box-cube{
    position: absolute;
@@ -431,6 +436,10 @@ form {
    right:22px;
    width: 250px;
    height: 150px;
+}
+
+.text-box-cube2>a{
+    color: #005CA0;   
 }
 
 .text-box-cube >p{
